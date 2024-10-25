@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+.name{
+    width: 100%;
+    height: 300px;
+    background-color:#235789;
+    transform: skewY(-5DEG);
+}
+
+
+.name .content {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+}
+
+.name .content .P1 {
+    color:#FDFFFC;
+    font-family: "baloo tamma 2", sans-serif;
+    font-weight: bolder;
+    font-size: 65px;
+    transform: skewY(5DEG);
+    margin-bottom: 0;
+}
+
+.name .content .p2 {
+    color:#FDFFFC;
+    font-family: "baloo tamma 2", sans-serif;
+    font-size: 35px;
+    transform: skewY(5DEG);
+    
+    
+}
+.info{
+    width: 90%;
+    height: auto;
+    background: #235789;
+    margin: 5% auto;
+    padding: 20px;
+
+
+}
+.info .tituloseccion{
+    color: #FDFFFC;
+    font-family:"Ubuntu:ital", sans-serif ;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px white solid;
+
+
+}
+
+.info .tituloinfo{
+    color: #FDFFFC;
+    font-family:"Ubuntu:ital", sans-serif ;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 10px;
+
+}
+
+.infoinfo{
+    color: #FDFFFC;
+    font-family:"Ubuntu:ital", sans-serif ;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+}
